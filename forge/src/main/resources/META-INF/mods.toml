@@ -1,0 +1,48 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "Not specified"
+
+[[mods]]
+modId="jei_fast_search"
+version = "${version}"
+displayName = "JEI Fast Search"
+authors = "Multimod"
+description = '''
+This mod allow you to auto fill the search bar in JEI with an hotkey.
+'''
+#logoFile = ""
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.jei_fast_search]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+
+[[dependencies.jei_fast_search]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.jei_fast_search]]
+modId="architectury"
+mandatory=true
+versionRange = "[9.2.14,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.jei_fast_search]]
+modId="jei"
+mandatory=true
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+
+
